@@ -1,0 +1,32 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+	<rect width="128" height="128" rx="26" fill="#ffffff"/>
+
+	<!-- antenna -->
+	<line x1="64" y1="16" x2="64" y2="30" stroke="#3d6ea5" stroke-width="6" stroke-linecap="round"/>
+	<circle cx="64" cy="13" r="7" fill="#4a7fbf"/>
+
+	<!-- ears -->
+	<rect x="15" y="52" width="15" height="24" rx="7.5" fill="#3d6ea5"/>
+	<rect x="98" y="52" width="15" height="24" rx="7.5" fill="#3d6ea5"/>
+
+	<!-- head -->
+	<rect x="25" y="28" width="78" height="66" rx="24" fill="#4a7fbf"/>
+	<rect x="34" y="38" width="60" height="46" rx="17" fill="#cfe3f5"/>
+
+	<!-- shield emblem -->
+	<path d="M64 45 L73 49 V57 C73 64 68.5 68.5 64 71 C59.5 68.5 55 64 55 57 V49 Z" fill="#a9cbe8"/>
+
+	<!-- eyes -->
+	<circle cx="52" cy="61" r="6.5" fill="#1f3a5c"/>
+	<circle cx="77" cy="61" r="6.5" fill="#1f3a5c"/>
+	<circle cx="49.8" cy="58.8" r="1.8" fill="#ffffff"/>
+	<circle cx="74.8" cy="58.8" r="1.8" fill="#ffffff"/>
+
+	<!-- smile -->
+	<path d="M55 73 Q64 79 73 73" fill="none" stroke="#1f3a5c" stroke-width="3.2" stroke-linecap="round"/>
+
+	<!-- prohibition badge -->
+	<circle cx="95" cy="88" r="23" fill="#ffffff"/>
+	<circle cx="95" cy="88" r="19" fill="#d4483f"/>
+	<line x1="83" y1="100" x2="107" y2="76" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round"/>
+</svg>

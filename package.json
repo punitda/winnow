@@ -1,0 +1,13 @@
+{
+	"name": "winnow",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Chrome extension that filters AI bot comments out of GitHub pull requests.",
+	"type": "module",
+	"scripts": {
+		"test": "node test/run.mjs"
+	},
+	"devDependencies": {
+		"jsdom": "^25.0.1"
+	}
+}

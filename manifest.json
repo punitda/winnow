@@ -1,0 +1,41 @@
+{
+	"manifest_version": 3,
+	"name": "Winnow",
+	"version": "0.1.0",
+	"description": "Filters AI bot comments out of GitHub pull requests so you can read what your coworkers actually said.",
+	"permissions": ["storage"],
+	"icons": {
+		"16": "src/icons/icon16.png",
+		"48": "src/icons/icon48.png",
+		"128": "src/icons/icon128.png"
+	},
+	"action": {
+		"default_icon": {
+			"16": "src/icons/icon16.png",
+			"48": "src/icons/icon48.png",
+			"128": "src/icons/icon128.png"
+		},
+		"default_title": "Winnow",
+		"default_popup": "src/popup.html"
+	},
+	"background": {
+		"service_worker": "src/background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://github.com/*"],
+			"js": ["src/content.js"],
+			"css": ["src/content.css"],
+			"run_at": "document_idle"
+		}
+	],
+	"commands": {
+		"toggle-filter": {
+			"suggested_key": {
+				"default": "Alt+Shift+B",
+				"mac": "Alt+Shift+B"
+			},
+			"description": "Toggle bot comment filtering"
+		}
+	}
+}
